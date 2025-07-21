@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
-import NavBar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import About from "./components/About";
-import Footer from "./components/footer";
+import{ useRef } from 'react';
+import NavBar from './components/Navbar';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -40,7 +40,7 @@ return <>
       </section>
 
       <section ref={contactRef}>
-       <Footer/>
+       <Contact/>
       </section>
 
 

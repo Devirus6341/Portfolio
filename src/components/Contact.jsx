@@ -1,4 +1,4 @@
-function Footer() {
+function Contact() {
 return(
     <footer>
         <div>
@@ -17,4 +17,4 @@ return(
 )
 }
 
-export default Footer;
+export default Contact;
