@@ -4,8 +4,12 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
+import { Button, CssBaseline, Container, Typography } from '@mui/material';
+import useThemeContext from './useThemeContext';
+
 
 function App() {
+const { mode, toggleTheme } = useThemeContext();
 
  const homeRef = useRef(null);
  const serviceRef = useRef(null);
@@ -18,11 +22,13 @@ function App() {
 
 
 return <div className='container'>
+  <CssBaseline />
   <NavBar
         onHomeClick={() => scrollToSection(homeRef)}
         onServiceClick={() => scrollToSection(serviceRef)}
         onAboutClick={() => scrollToSection(aboutRef)}
         onContactClick={() => scrollToSection(contactRef)}
+        onToggle={() => toggleTheme()}
       />
 
       
@@ -42,7 +48,6 @@ return <div className='container'>
       <section ref={contactRef}>
        <Contact/>
       </section>
-
 
 
 </div>

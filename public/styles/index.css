@@ -6,9 +6,8 @@ body, html {
 }
 
 nav {
-    background-color: white;
     position: fixed;
-    height: 35px;
+    height: 60px;
     top: 0;
     left: 0;
    right: 0;
@@ -20,16 +19,22 @@ nav {
 }
 
 .nav-links {
-    width: 250px;
+    width: 450px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     color: rgb(109, 3, 109);
 }
+
 
 .nav-links p {
     font-size: 14px;
         cursor: pointer;
+}
+
+.nav-menu {
+    visibility: hidden;
 }
 
 .hero-container {
@@ -143,6 +148,12 @@ footer {
 }
 
 @media (max-width: 900px) {
+.nav-links {
+    visibility: hidden;
+}
+.nav-menu {
+    visibility: visible;
+}
    .services-info {
     display: flex;
     flex-direction: column;
