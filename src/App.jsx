@@ -17,7 +17,7 @@ function App() {
   };
 
 
-return <>
+return <div className='container'>
   <NavBar
         onHomeClick={() => scrollToSection(homeRef)}
         onServiceClick={() => scrollToSection(serviceRef)}
@@ -45,7 +45,7 @@ return <>
 
 
 
-</>
+</div>
 }
 
 export default App;
