@@ -174,4 +174,11 @@ footer {
      padding: 70px 50px;
      padding-bottom: 20px;
 }
+
+.about p {
+    width: 80vw;
+}
+.services-info p {
+    width: 60vw;
+}
 }

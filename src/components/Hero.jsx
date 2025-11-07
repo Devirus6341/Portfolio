@@ -7,7 +7,7 @@ return <div className="hero-container">
     <p className="dominate">DOMINATE.</p>
     </div>
     <div className="hero-image">
-        <img src="/images/still-life-books-versus-technology.jpg" alt="" />
+        <img src="/images/still-life-books-versus-technology.svg" alt="" />
     </div>
 </div>
 </div>
