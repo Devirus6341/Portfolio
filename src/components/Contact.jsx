@@ -10,7 +10,7 @@ return(
         </div>
         <div className="tel">
             <img height={15} src="/images/phone-call-white-icon.svg" alt="phone" />
-            <p>  tel: </p>
+            <p>  tel: +234-810-592-0783</p>
         </div>
     <p className="copyright">Copyright © 2025.  Work Done By<em> Devirus</em></p>
     </footer>
