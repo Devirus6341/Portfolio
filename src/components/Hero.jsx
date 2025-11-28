@@ -35,6 +35,8 @@ function Hero() {
             src="/images/Gemini_Generated_Image_9cul4f9cul4f9cul.png"
             alt="Fitness Web Developer Illustration"
             style={{
+                width: "400px",
+                height: "400px",
               objectFit: "cover",
               display: loaded ? "block" : "none",
               clipPath: "polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)",
