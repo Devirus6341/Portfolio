@@ -221,6 +221,7 @@ footer {
     flex-direction: column;
     padding: 120px 30px 50px;
     text-align: center;
+    justify-content: center;
   }
 
   .intro h1 {
