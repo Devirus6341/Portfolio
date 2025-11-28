@@ -212,7 +212,7 @@ footer {
 ----------------------------------- */
 @media (max-width: 900px) {
 
-  nav-links { display: none; }
+  .nav-links { display: none; }
   .nav-menu { visibility: visible; }
 
   .hero {
