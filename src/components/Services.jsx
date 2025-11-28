@@ -1,23 +1,37 @@
 function Services() {
-return(
+  return (
     <div className="services">
-    <h2>Services</h2>
-    <div className="services-info">
-        <div>
-       <p className="services-title"> Full-Stack Web Development</p>
-       <p className="services-details">complete, scalable, and responsive web applications from start to finish — combining elegant front-end interfaces with powerful back-end systems.</p>
+      <h2>Services</h2>
+
+      <div className="services-info">
+
+        <div className="service-card">
+          <p className="services-title">Fitness Website Design</p>
+          <p className="services-details">
+            High-converting, modern websites built specifically for gyms, fitness coaches, 
+            and personal trainers. Fast, clean, and optimized to attract new clients.
+          </p>
         </div>
-           <div>
-       <p className="services-title"> Front-End Development</p>
-       <p className="services-details">Modern, responsive user interfaces using technologies like React.js, HTML5, CSS3, JavaScript, and UI libraries such as Material UI.</p>
+
+        <div className="service-card">
+          <p className="services-title">Landing Pages for Fitness Offers</p>
+          <p className="services-details">
+            Professionally designed landing pages for challenges, programs, bootcamps, 
+            and membership promotions—built to maximize conversions.
+          </p>
         </div>
-           <div>
-       <p className="services-title"> Back-End Development</p>
-       <p className="services-details"> robust and secure server-side applications using Node.js, Express.js, and database technologies like Postgres and SQL.</p>
+        
+        <div className="service-card">
+          <p className="services-title">Online Coaching Platforms</p>
+          <p className="services-details">
+            Build your online coaching hub with client dashboards, progress tracking, 
+            program delivery, and seamless communication tools.
+          </p>
         </div>
+
+      </div>
     </div>
-    </div>
-)
-};
+  );
+}
 
 export default Services;
