@@ -99,6 +99,7 @@ nav {
   display: flex;
   gap: 50px;
   align-items: center;
+  
   padding: 120px 100px 70px;
   color: white;
 }
@@ -122,7 +123,7 @@ nav {
   width: 400px;
   height: 400px;
   margin-top: 50px;
-  object-fit: contain;
+  object-fit: cover;
   clip-path: polygon(
     25% 6.7%, 75% 6.7%,
     100% 50%, 75% 93.3%,
@@ -219,24 +220,21 @@ footer {
 
   .hero {
     flex-direction: column;
-    padding: 120px 30px 50px;
+    gap: 30px;
+    padding: 80px 5%;
     text-align: center;
-    justify-content: center;
   }
 
-  .intro h1 {
-    font-size: 30px;
-  }
-
-  .intro p {
-    font-size: 14px;
+  .intro {
+    max-width: 100%;
+    text-align: center;
   }
 
   .hero-image img {
-    width: 180px;
-    height: 180px;
+    object-fit: contain;
+    max-width: 300px;
   }
-
+}
   .services-info {
     flex-direction: column;
     gap: 40px;
@@ -253,4 +251,3 @@ footer {
   .about p {
     width: 85vw;
   }
-}
